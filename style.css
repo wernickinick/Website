@@ -1,34 +1,3 @@
-@media (max-width: 600px) {
-  .banner .content {
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 40px;
-    text-align: center;
-  }
-  .banner .content h1 {
-    font-size: 2em;
-    text-align: center;
-     margin-top: 30px;
-    padding-left: -25%;
-    padding-right: -25%;
-    justify-content: center;
-     
-  }
-  .banner .content .author {
-    text-align: center;
-    max-width: auto;
-    margin-top: 1em;
-    margin-top: 50px;
-
-  }
-  .contact-section {
-  width: 100%;
-  max-width: 40rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3rem 1rem;
-}
-}
 .langList {
   list-style: none;
   padding: 0;
@@ -39,6 +8,7 @@
   text-align: left;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 0%;
 }
 .langList li {
   display: flex;
@@ -147,11 +117,6 @@
     text-shadow: 2px 2px 4px #ffffff;
     text-align: center;
 }
-.languages{
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: -50px;
-}
 .langList{
     background-image: url(images/LangButton.jpg);
     background-size: cover;
@@ -176,22 +141,10 @@ min-height: 100vh;
 text-align: center;
 overflow: hidden;
 position: relative;
-margin-top: 40px;
-padding-bottom: 20px;
-}
+margin-top: 100px;
+margin-bottom: -300px;
 
-.banner__title {
-  width: 200px;
-  height: 200px;
-  margin: 370px auto;
 }
-
-.banner__title h1 {
-  font-size: 100px;
-  font-family: fantasy;
-  letter-spacing: 10px;
-}
-
 .banner .slider {
   position: absolute;
   width: 200px;
@@ -223,7 +176,7 @@ padding-bottom: 20px;
 
 .banner .slider .item img {
   width: 100%;
-  height: 100%; /* 100% */
+  height: 100%;
   object-fit: cover;
   border-radius: 40px;
   border: 5px solid rgba(0, 242, 255, 0.8);
@@ -237,41 +190,12 @@ padding-bottom: 20px;
   transform: translateX(-50%);
   width: min(1400px, 100vw);
   height: max-content;
-  padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
 }
-
-.banner .content h1 {
-  font-family: "ICA Rubrik";
-  font-size: 14em;
-  line-height: 1em;
-  color: #0c6580;
-  position: relative;
-}
-
-.banner .content h1::after {
-  position: absolute;
-  inset: 0 0 0 0;
-  content: attr(data-content);
-  z-index: 2;
-  -webkit-text-stroke: 3px #cdcdcd;
-  color: transparent;
-}
-
-.banner .content .author {
-  font-family: Poppins;
-  text-align: right;
-  max-width: 200px;
-}
-
-.banner .content h2 {
-  font-size: 3em;
-}
-
 .banner .content .model {
   width: 100%;
   height: 50vh; /* 75vh */
