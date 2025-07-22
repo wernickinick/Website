@@ -2,20 +2,17 @@
 <head>
     <title>Nicholas Wernicki</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <div class="header-bar">
-      <img class="picture" src="images/mugshot.png" alt="Profile">
-      <h1 class="title">Nicholas Wernicki</h1>
+      <div class="overlay">
+        <h1 class="Title">Nicholas Wernicki</h1>
+      <img class="picture" src="images/NickIcon.png" alt="Profile">
+      </div>
     </div>
 
     <main>
-
-        <div class="schoolpic-container">
-          <a href="https://www.uky.edu" target="_blank">
-            <img class="schoolpic" src="images/ukLogo.png" alt="School Logo">
-          </a>
-        </div>
         
         <h2 class="project-title">About Me</h2>
         <p class="about">
@@ -69,8 +66,6 @@
 
     <h1 class="project-title">Languages</h1>
 
-    <div class="langback">
-
         <ul class="langList">
             <li><span class="htmlpic"></span>HTML</li>
             <li><span class="csspic"></span>CSS</li>
@@ -78,7 +73,9 @@
             <li><span class="javapic"></span>Java</li>
             <li><span class="pythonpic"></span>Python</li>
         </ul>
-        </div>
+
+        <div class="contactpage">
+        <div class="contactbutton">
 
     <section class="contact-section">
   <div class="contact-intro">
@@ -105,13 +102,16 @@
       </div>
       <div class="form-group">
         <label for="message" class="form-label">Message</label>
-        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Type your message..."></textarea>
       </div>
     </div>
     <button class="form-submit" type="submit">Send Message</button>
   </form>
 
 </section>
+</div>
+<img class="contactpic" src="images/ContactMe.png" alt="Contact Picture">
+</div>
 
   <a href="https://github.com/wernickinick" target="_blank">
     <img class="giticon" src="Socialimages/Github.png" alt="Github">
