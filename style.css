@@ -17,7 +17,7 @@
   width: 45%;
   box-sizing: border-box;
 }
-.htmlpic, .csspic, .jspic, .javapic, .pythonpic {
+.htmlpic, .csspic, .jspic, .javapic, .pythonpic, .cpic {
   display: inline-block;
   width: 48px;
   height: 48px;
@@ -41,6 +41,9 @@
 }
 .pythonpic {
   background-image: url(images/pythonLogo.webp);
+}
+.cpic{
+  background-image: url(images/Cimage.png);
 }
 .title{
   font-family: "JetBrains Mono", monospace;
