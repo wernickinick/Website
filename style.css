@@ -360,19 +360,46 @@ margin-top: 0;
   align-items: center;
   gap: 40px;
   margin: 40px 0;
-} 
-.resume{
-  width: 70px;
-  margin-top: 1.2rem;
-  background-color: #009db9;
-  color: #fff;
-  padding: 10px 4px;
-  border-radius: 33px;
-  align-content: center;
-  align-items: center;
-  list-style: none;
 }
-
+/*ADDED 3-17-26 start */
+.resume {
+  /* Layout & Sizing */
+  width: 120px; /* Increased width to fit the word "Resume" comfortably */
+  margin-top: 0; 
+  padding: 12px 0;
+  display: flex; /* Using Flexbox is the best way to center content */
+  justify-content: center;
+  align-items: center;
+  
+  /* Styling */
+  background-color: #009db9;
+  border-radius: 33px;
+  list-style: none;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+/* Target the list item and link specifically */
+.resume li, 
+.resume a {
+  display: block;
+  text-decoration: none; /* Removes the underline */
+  color: #fff;
+  font-weight: 700; /* Makes the text bold */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A clean, modern font */
+  font-size: 1rem;
+  text-align: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;  /* Stacks buttons vertically */
+  justify-content: center; /* Centers vertically in the available space */
+  align-items: center;
+  gap: 10px; /* Centers horizontally (left to right) *//* Adds a clean gap between the buttons */
+}
+/*ADDED 3-17-26 END*/
+.resume:hover {
+  background-color: #00d0f7; /* A darker blue for a smoother hover effect */
+}
 @media (max-width: 700px) {
   .header-bar {
     height: 300px; /* Much shorter on mobile */
