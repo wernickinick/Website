@@ -434,6 +434,8 @@ min-height: 400px;
 text-align: center;
 overflow: hidden;
 position: relative;
+margin-bottom: -500px;
+margin-top: -20px;
 }
 .Title{
   text-align: center;
@@ -477,8 +479,12 @@ position: relative;
   font-style: normal;
   font-size: 15px;
 }
+.project-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -10px;
 }
-
+}
 @media (max-width: 926px) {
   .header-bar {
     height: 300px; /* Much shorter on mobile */
@@ -509,10 +515,11 @@ position: relative;
 }
 .banner {
 width: 100%;
-min-height: 400px;
+min-height: 1000px;
 text-align: center;
 overflow: hidden;
 position: relative;
+margin-bottom: -500px;
 }
 .Title{
   text-align: center;
@@ -556,4 +563,57 @@ position: relative;
   font-style: normal;
   font-size: 15px;
 }
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;       /* Use 100%, not a px value */
+    max-width: 100%;   /* Ensures it can't go wider than the screen */
+    overflow: hidden;  /* Safety net to cut off any stray pixels */
+    padding: 0 15px;   /* Small padding so the image doesn't touch the screen edges */
+    box-sizing: border-box; /* Crucial: includes padding in the width calculation */
+}
+
+.aboutImage {
+    max-width: 500px;           
+    height: auto;
+}
+.lowtop{
+  margin-top: -100px;
+}
+.edu{
+  list-style: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  margin-top: 80px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.edu li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 45%;
+  box-sizing: border-box;
+}
+.UK {
+  background-image: url(images/ukLogo.png);
+}
+.clc {
+  background-image: url(images/clc.png);
+}
+.UK,.clc{
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  vertical-align: middle;
+  flex-shrink: 0;
 }
