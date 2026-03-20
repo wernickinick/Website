@@ -64,7 +64,7 @@
   background-position-y: 0%;
   background-position-x: center;
   margin: auto;
-  height: 80vh ;
+  height: 90vh ;
   width: auto;
   background-repeat: no-repeat;
   position: relative;
@@ -385,7 +385,7 @@ margin-top: 0;
   text-decoration: none; /* Removes the underline */
   color: #fff;
   font-weight: 700; /* Makes the text bold */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A clean, modern font */
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; /* A clean, modern font */
   font-size: 1rem;
   text-align: center;
 }
@@ -623,4 +623,31 @@ margin-bottom: -500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.TitleEdu h1{
+  text-align: center;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.TitleEdu{
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  margin-top: 130px;
+  text-align: center;
+  margin-bottom: -40px;
+}
+.TitleEdu{
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 0 4px 24px rgba(0, 195, 255, 0.911);
+  background-color: rgb(231, 254, 254);
+  background-size: cover;
+  padding: 15px 10px;
+  border-radius: 33px;
+   font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
